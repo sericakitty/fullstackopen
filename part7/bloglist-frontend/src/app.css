@@ -1,0 +1,215 @@
+/* 7.21 - Custom CSS */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+}
+
+
+/* Table */
+.custom-table {
+  background-color: #ffe6e6;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid #f5b5b5;
+}
+
+/* Table header */
+.custom-table thead {
+  background-color: #ffcccc;
+  color: #4a4a4a;
+}
+
+/* Table body */
+.custom-table tbody tr {
+  transition: background-color 0.2s ease-in-out;
+}
+
+.custom-table tbody tr:hover {
+  background-color: #ffd9d9;
+}
+
+/* Blog-container */
+.blog-container {
+  margin: 20px 0;
+  padding: 10px;
+}
+
+/* Login form container */
+.login-form-container {
+  background-color: #ffe6e6;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 400px;
+  margin: 40px auto;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Form title */
+.login-form-container h2 {
+  text-align: center;
+  color: #4a4a4a;
+  margin-bottom: 20px;
+}
+
+/* Button styles */
+button {
+  background-color: #ff9999;
+  border: none;
+}
+
+button:hover {
+  background-color: #ff7f7f;
+}
+
+button:focus {
+  box-shadow: 0 0 3px #ff9999;
+}
+
+/* Space between form fields */
+.form-control {
+  margin-bottom: 10px;
+}
+
+/* Custom styles for buttons */
+button,
+.btn {
+  background-color: #ffcccc;
+  color: #4a4a4a;
+  border: 1px solid #ff9999;
+  border-radius: 8px;
+  padding: 5px 10px;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
+}
+
+/* Hover effect for buttons */
+button:hover,
+.btn:hover {
+  background-color: #ff9999;
+  color: white;
+}
+
+/* Focus effect for buttons */
+button:focus,
+.btn:focus {
+  box-shadow: 0 0 5px #ffcccc;
+  outline: none;
+}
+
+/* Create new blog form container */
+.create-new-blog-container {
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-left: 4px solid #ffcccc;
+  max-width: 400px;
+  margin: 20px 0;
+}
+
+/* Form title */
+.create-new-blog-container h2 {
+  font-size: 1.5rem;
+  color: #4a4a4a;
+  margin-bottom: 15px;
+}
+
+
+
+/* Navbar container */
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #ffe6e6;
+  border-bottom: 1px solid #ffcccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Links */
+.navbar-links {
+  display: flex;
+  gap: 15px;
+}
+
+.navbar-link {
+  text-decoration: none;
+  color: #4a4a4a;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.navbar-link:hover {
+  color: #ff9999;
+}
+
+/* User info */
+.navbar-user-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.navbar-user-text {
+  color: #4a4a4a;
+}
+
+.navbar-logout-button {
+  background-color: #ffcccc;
+  color: #4a4a4a;
+  border: 1px solid #ff9999;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar-logout-button:hover {
+  background-color: #ff9999;
+  color: white;
+}
+
+.navbar-logout-button:focus {
+  outline: none;
+  box-shadow: 0 0 5px #ffcccc;
+}
+
+
+/* Blog detail component */
+.blog-detail-container ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+.blog-detail-container li {
+  margin-bottom: 5px;
+  color: #4a4a4a;
+}
+
+.blog-detail-container form {
+  margin-top: 20px;
+}
+
+.blog-detail-container button {
+  background-color: #ff9999;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  transition: background-color 0.3s ease;
+}
+
+.blog-detail-container button:hover {
+  background-color: #ff7f7f;
+}

@@ -1,0 +1,42 @@
+{
+  "notes": [
+    {
+      "id": "1",
+      "content": "custom-hooks are awesome!"
+    },
+    {
+      "id": "2",
+      "content": "best feature ever <3"
+    },
+    {
+      "id": "1a2b",
+      "content": "testihookki"
+    },
+    {
+      "id": "67b9",
+      "content": "uusiviesti"
+    }
+  ],
+  "persons": [
+    {
+      "id": "1",
+      "name": "mluukkai",
+      "number": "040-5483923"
+    },
+    {
+      "id": "2",
+      "name": "hellas",
+      "number": "012-123123"
+    },
+    {
+      "id": "1f75",
+      "name": "serica",
+      "number": "123123123"
+    },
+    {
+      "id": "077e",
+      "name": "uusihenkilö",
+      "number": "123123123"
+    }
+  ]
+}
